@@ -1,0 +1,43 @@
+.sticky-col {
+  position: sticky;
+  left: 0;
+  z-index: 15;
+  background-color: #0f172a;
+}
+
+.tab-btn {
+  color: #94a3b8;
+}
+
+.tab-btn.active {
+  background-color: #4f46e5;
+  color: #ffffff;
+}
+
+.shift-cell {
+  min-width: 38px;
+  height: 36px;
+  transition: background-color 0.12s ease, transform 0.08s ease;
+}
+
+.shift-cell:hover {
+  outline: 1px solid #818cf8;
+  z-index: 5;
+}
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
